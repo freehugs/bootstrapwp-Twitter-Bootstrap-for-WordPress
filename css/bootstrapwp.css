@@ -7112,3 +7112,16 @@ img.aligncenter {
   text-align: center;
   margin-bottom: 9px;
 }
+
+.blue-feature {
+    background-color: rgb(247, 252, 255);
+    border: 1px solid rgb(205, 205, 205);
+    padding: 20px;
+    height: 100%;
+    min-height: 100%;
+    text-align: center;
+}
+
+.roboto {
+    font-family: 'Roboto Condensed', sans-serif;
+}
