@@ -17,9 +17,7 @@ get_header('no-nav'); ?>
                 <?php echo get_post_meta($post->ID, 'feature-image', true); ?>
             </div>
             <div class="span5" style="height: 100%; min-height: 100%; margin-bottom: 0px;">
-                <div class="blue-feature">
-                    <?php the_content();?>
-                </div>
+                <?php the_content();?>
             </div>
         </div><!-- .row content -->
    </div>
