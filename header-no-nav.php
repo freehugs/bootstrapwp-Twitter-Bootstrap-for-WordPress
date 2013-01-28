@@ -45,12 +45,12 @@
     <link rel="apple-touch-icon-precomposed" href="<?php bloginfo( 'template_url' );?>/ico/apple-touch-icon-57-precomposed.png">
 <!--    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>-->
     <link href='http://fonts.googleapis.com/css?family=Bowlby+One+SC' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="<?php bloginfo( 'template_url' );?>/css/placeholder_polyfill.css">
-    <script src="<?php bloginfo( 'template_url' );?>/js/placeholder_polyfill.jquery.js" charset="utf-8"></script>
+
     <!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <?php wp_head(); ?>
+    <script src="<?php bloginfo( 'template_url' );?>/js/jquery.html5form.js" type="text/javascript"></script>
 </head>
 <body <?php body_class(); ?>  data-spy="scroll" data-target=".bs-docs-sidebar" data-offset="10">
 <!-- End Header -->
