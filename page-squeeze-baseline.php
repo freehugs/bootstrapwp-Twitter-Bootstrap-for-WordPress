@@ -12,7 +12,7 @@ get_header('no-nav'); ?>
 <?php while ( have_posts() ) : the_post(); ?>
    <div class="container">
         <div class="row content">
-            <div class="span12" style="height: 25px;">&nbsp;</div>
+            <div class="span12 hidden-phone" style="height: 25px;">&nbsp;</div>
             <div class="span5 hidden-phone">
                 <?php echo get_post_meta($post->ID, 'feature-image', true); ?>
             </div>
