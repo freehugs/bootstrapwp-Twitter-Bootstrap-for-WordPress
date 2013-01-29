@@ -50,7 +50,12 @@
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <?php wp_head(); ?>
-    <script src="<?php bloginfo( 'template_url' );?>/js/jquery.html5form.js" type="text/javascript"></script>
+    <script src="<?php bloginfo( 'template_url' );?>/js/jquery.placeholder.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery('input').placeholder();
+        });
+    </script>
 </head>
 <body <?php body_class(); ?>  data-spy="scroll" data-target=".bs-docs-sidebar" data-offset="10">
 <!-- End Header -->

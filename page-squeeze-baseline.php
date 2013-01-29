@@ -24,6 +24,4 @@ get_header('no-nav'); ?>
 <?php endwhile; // end of the loop. ?>
 
 
-
-
 <?php get_footer('blank'); ?>
